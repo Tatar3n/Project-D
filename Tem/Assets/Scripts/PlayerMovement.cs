@@ -4,29 +4,38 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private Vector3 moveDelta;
+    private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
 
-    private Vector3 moveDelta;
+    public float speed;
+    public float jumpForce;
+
 
     private void Start() {
         boxCollider = GetComponent<BoxCollider2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate() {
         moveDelta = Vector3.zero;
 
         float x = Input.GetAxisRaw("Horizontal");
-
-        Debug.Log(x);
+        rb.velocity = new Vector2(x * speed, rb.velocity.y);
 
         moveDelta = new Vector3(x,0,0);
 
         if(moveDelta.x > 0)
             transform.localScale = Vector3.one;
         else if (moveDelta.x < 0)
-            transform.localScale = new Vector3(-1,1,1);
+            transform.localScale = new Vector3(-1,1,1);   
 
-        transform.Translate(moveDelta * Time.deltaTime);
+    }
+
+    private void Update() {
+        if(Input.GetKeyDown(KeyCode.Space)) {
+            rb.velocity = Vector2.up * jumpForce; 
+        }
     }
 
 }
