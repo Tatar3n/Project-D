@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveDelta;
     private Rigidbody2D rb;
     private BoxCollider2D boxCollider;
+    private RaycastHit2D hit;
 
     public float speed;
     public float jumpForce;
 
+    private bool isGround = false;
 
     private void Start() {
         boxCollider = GetComponent<BoxCollider2D>();
@@ -28,13 +30,22 @@ public class PlayerMovement : MonoBehaviour
         if(moveDelta.x > 0)
             transform.localScale = Vector3.one;
         else if (moveDelta.x < 0)
-            transform.localScale = new Vector3(-1,1,1);   
+            transform.localScale = new Vector3(-1,1,1);
 
+        }
+            
+    void OnCollisionEnter2D(Collision2D col) {
+
+        if (col.gameObject.tag == ("Wall"))
+            isGround = true;
+        else if (col.gameObject.tag == ("Ground")) 
+            isGround = true;
     }
 
     private void Update() {
-        if(Input.GetKeyDown(KeyCode.Space)) {
+        if(Input.GetKeyDown(KeyCode.Space) && isGround) {
             rb.velocity = Vector2.up * jumpForce; 
+            isGround = false;
         }
     }
 
