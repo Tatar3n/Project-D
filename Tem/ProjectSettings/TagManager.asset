@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - Blocking
   - Creature
   - Enemy
-  - 
+  - InvCreature
   - 
   - 
   - 
@@ -47,4 +49,7 @@ TagManager:
     locked: 0
   - name: "\u0421reature"
     uniqueID: 484300171
+    locked: 0
+  - name: Menu
+    uniqueID: 1710101489
     locked: 0
