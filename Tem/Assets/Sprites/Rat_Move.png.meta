@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 6d6becd00e1b52a4db2d32cff132372a
+guid: 9670a503e914a1148a7c3c54bafdfa8d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8134486471887594531
-    second: Move-Animation1_0
+      213: 3490651989668702429
+    second: Rat_Move_0
   - first:
-      213: 4929205050766524153
-    second: Move-Animation1_1
+      213: 8684635720730109626
+    second: Rat_Move_1
   - first:
-      213: -6458435959329209269
-    second: Move-Animation1_2
+      213: 3119999441862222354
+    second: Rat_Move_2
   - first:
-      213: 6852739028031716270
-    second: Move-Animation1_3
+      213: 4394615112205191264
+    second: Rat_Move_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,85 +99,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Move-Animation1_0
+      name: Rat_Move_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 49
+        height: 38
       alignment: 9
-      pivot: {x: 0.488365, y: 0.5814453}
+      pivot: {x: 0.4997148, y: 0.88385904}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 324a41b095083e070800000000000000
-      internalID: 8134486471887594531
+      spriteID: dd8a6b68d79417030800000000000000
+      internalID: 3490651989668702429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move-Animation1_1
+      name: Rat_Move_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 49
         y: 0
-        width: 32
-        height: 32
+        width: 47
+        height: 38
       alignment: 9
-      pivot: {x: 0.48545635, y: 0.5785365}
+      pivot: {x: 0.47998697, y: 0.88226557}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fefffba0ed086440800000000000000
-      internalID: 4929205050766524153
+      spriteID: ab669c1cc26068870800000000000000
+      internalID: 8684635720730109626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move-Animation1_2
+      name: Rat_Move_2
       rect:
         serializedVersion: 2
-        x: 66
+        x: 96
         y: 0
-        width: 32
-        height: 32
+        width: 47
+        height: 38
       alignment: 9
-      pivot: {x: 0.48545647, y: 0.5785365}
+      pivot: {x: 0.5206445, y: 0.8857988}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b44c29796b60f56a0800000000000000
-      internalID: -6458435959329209269
+      spriteID: 2126d9f36f67c4b20800000000000000
+      internalID: 3119999441862222354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move-Animation1_3
+      name: Rat_Move_3
       rect:
         serializedVersion: 2
-        x: 98
+        x: 144
         y: 0
-        width: 32
-        height: 32
+        width: 48
+        height: 38
       alignment: 9
-      pivot: {x: 0.48545647, y: 0.5785365}
+      pivot: {x: 0.48831114, y: 0.8848582}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eab3940b6d1d91f50800000000000000
-      internalID: 6852739028031716270
+      spriteID: 068cd8f292fccfc30800000000000000
+      internalID: 4394615112205191264
       vertices: []
       indices: 
       edges: []
