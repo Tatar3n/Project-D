@@ -221,7 +221,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99028301}
   m_Enabled: 1
-  m_CellSize: {x: 0.32, y: 0.32, z: 0}
+  m_CellSize: {x: 0.31, y: 0.32, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -395,7 +395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467915749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.036, y: 3.363, z: 0}
+  m_LocalPosition: {x: 29.103, y: 3.363, z: 0}
   m_LocalScale: {x: 0.6, y: 0.7125, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6556,6 +6556,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30357c280183ab84caf386507a5b3250, type: 3}
+--- !u!1 &1471194647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1799477288266624202, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1799477287150413094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1471194648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471194647}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AssetsPPU: 256
+  m_RefResolutionX: 800
+  m_RefResolutionY: 600
+  m_UpscaleRT: 1
+  m_PixelSnapping: 1
+  m_CropFrameX: 1
+  m_CropFrameY: 1
+  m_StretchFill: 1
 --- !u!1001 &1627730912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47941,6 +47967,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1799477288266624200, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
+        type: 3}
+      propertyPath: m_TargetEye
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799477288266624200, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
+        type: 3}
+      propertyPath: orthographic size
+      value: 1.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1799477288266624201, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
         type: 3}
       propertyPath: m_RootOrder
@@ -48003,9 +48039,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1799477288266624214, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
         type: 3}
+      propertyPath: boundx
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799477288266624214, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
+        type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1949581721}
+    - target: {fileID: 1799477288266624214, guid: 636f14fed0542ff4b9d7e3d15fbefd2b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 636f14fed0542ff4b9d7e3d15fbefd2b, type: 3}
 --- !u!1001 &2321637216027401924
